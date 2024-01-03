@@ -35,6 +35,8 @@ public class Log4jDemo {
 		Thread.sleep(3000);
 		log.info("Wait for 3 Seconds");
 		
+		driver.findElement(By.name("q")).sendKeys("GitHub");
+		
 		
 		
 
